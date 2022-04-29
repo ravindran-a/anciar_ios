@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052DC3A05E8813C8254945BB /* Pods_AnciariOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DA06EB0EC88380F2C04B21 /* Pods_AnciariOSUITests.framework */; };
+		C4F290AE62C73383003B4820 /* Pods_AnciariOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2344BC551279BD086CD5C /* Pods_AnciariOS.framework */; };
+		DE12D49F94F4F13354D520FB /* Pods_AnciariOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFCBC21B151459F6D458CB2 /* Pods_AnciariOSTests.framework */; };
+		DEA303B5281C1FDA00F920BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303B4281C1FDA00F920BD /* AppDelegate.swift */; };
+		DEA303B7281C1FDA00F920BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303B6281C1FDA00F920BD /* SceneDelegate.swift */; };
+		DEA303BE281C1FDD00F920BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA303BD281C1FDD00F920BD /* Assets.xcassets */; };
+		DEA303C1281C1FDD00F920BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA303BF281C1FDD00F920BD /* LaunchScreen.storyboard */; };
+		DEA303CC281C1FDE00F920BD /* AnciariOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303CB281C1FDE00F920BD /* AnciariOSTests.swift */; };
+		DEA303D6281C1FDE00F920BD /* AnciariOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303D5281C1FDE00F920BD /* AnciariOSUITests.swift */; };
+		DEA303D8281C1FDE00F920BD /* AnciariOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303D7281C1FDE00F920BD /* AnciariOSUITestsLaunchTests.swift */; };
+		DEA303EE281C21AF00F920BD /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303ED281C21AF00F920BD /* Feed.swift */; };
+		DEA303F0281C21BF00F920BD /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303EF281C21BF00F920BD /* FeedViewModel.swift */; };
+		DEA303F2281C21DC00F920BD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303F1281C21DC00F920BD /* FeedViewController.swift */; };
+		DEA303F4281C21F900F920BD /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA303F3281C21F900F920BD /* Feed.storyboard */; };
+		DEA303F6281C229700F920BD /* FeedViewController+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303F5281C229700F920BD /* FeedViewController+Table.swift */; };
+		DEA303FA281C37C700F920BD /* FeedSingleElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303F8281C37C700F920BD /* FeedSingleElementCell.swift */; };
+		DEA303FB281C37C700F920BD /* FeedSingleElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA303F9281C37C700F920BD /* FeedSingleElementCell.xib */; };
+		DEA303FE281C37D800F920BD /* FeedDoubleElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA303FC281C37D800F920BD /* FeedDoubleElementCell.swift */; };
+		DEA303FF281C37D800F920BD /* FeedDoubleElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA303FD281C37D800F920BD /* FeedDoubleElementCell.xib */; };
+		DEA30402281C3BF500F920BD /* UIImageview+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA30401281C3BF500F920BD /* UIImageview+Extension.swift */; };
+		DEA30405281C427800F920BD /* ImageRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA30404281C427800F920BD /* ImageRepo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA303C8281C1FDE00F920BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA303A9281C1FDA00F920BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA303B0281C1FDA00F920BD;
+			remoteInfo = AnciariOS;
+		};
+		DEA303D2281C1FDE00F920BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA303A9281C1FDA00F920BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA303B0281C1FDA00F920BD;
+			remoteInfo = AnciariOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045BECD457208362E191E06E /* Pods-AnciariOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOS.debug.xcconfig"; path = "Target Support Files/Pods-AnciariOS/Pods-AnciariOS.debug.xcconfig"; sourceTree = "<group>"; };
+		28DA06EB0EC88380F2C04B21 /* Pods_AnciariOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnciariOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35043B59F1EC12832D6CBB34 /* Pods-AnciariOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOSTests.release.xcconfig"; path = "Target Support Files/Pods-AnciariOSTests/Pods-AnciariOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		40A8C24E691861952B1B8B52 /* Pods-AnciariOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-AnciariOSUITests/Pods-AnciariOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		742EC66BDA39A78DFBC9C582 /* Pods-AnciariOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AnciariOSTests/Pods-AnciariOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF2344BC551279BD086CD5C /* Pods_AnciariOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnciariOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD0D1CBE7384CC5BE84BEA /* Pods-AnciariOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOS.release.xcconfig"; path = "Target Support Files/Pods-AnciariOS/Pods-AnciariOS.release.xcconfig"; sourceTree = "<group>"; };
+		8EFCBC21B151459F6D458CB2 /* Pods_AnciariOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnciariOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E9425A69F9983606C603D4 /* Pods-AnciariOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnciariOSUITests.release.xcconfig"; path = "Target Support Files/Pods-AnciariOSUITests/Pods-AnciariOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEA303B1281C1FDA00F920BD /* AnciariOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnciariOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA303B4281C1FDA00F920BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA303B6281C1FDA00F920BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEA303BD281C1FDD00F920BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA303C0281C1FDD00F920BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA303C2281C1FDD00F920BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA303C7281C1FDE00F920BD /* AnciariOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnciariOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA303CB281C1FDE00F920BD /* AnciariOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnciariOSTests.swift; sourceTree = "<group>"; };
+		DEA303D1281C1FDE00F920BD /* AnciariOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnciariOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA303D5281C1FDE00F920BD /* AnciariOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnciariOSUITests.swift; sourceTree = "<group>"; };
+		DEA303D7281C1FDE00F920BD /* AnciariOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnciariOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEA303ED281C21AF00F920BD /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		DEA303EF281C21BF00F920BD /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		DEA303F1281C21DC00F920BD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DEA303F3281C21F900F920BD /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		DEA303F5281C229700F920BD /* FeedViewController+Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController+Table.swift"; sourceTree = "<group>"; };
+		DEA303F8281C37C700F920BD /* FeedSingleElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSingleElementCell.swift; sourceTree = "<group>"; };
+		DEA303F9281C37C700F920BD /* FeedSingleElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedSingleElementCell.xib; sourceTree = "<group>"; };
+		DEA303FC281C37D800F920BD /* FeedDoubleElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDoubleElementCell.swift; sourceTree = "<group>"; };
+		DEA303FD281C37D800F920BD /* FeedDoubleElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedDoubleElementCell.xib; sourceTree = "<group>"; };
+		DEA30401281C3BF500F920BD /* UIImageview+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageview+Extension.swift"; sourceTree = "<group>"; };
+		DEA30404281C427800F920BD /* ImageRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA303AE281C1FDA00F920BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F290AE62C73383003B4820 /* Pods_AnciariOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303C4281C1FDE00F920BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE12D49F94F4F13354D520FB /* Pods_AnciariOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303CE281C1FDE00F920BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052DC3A05E8813C8254945BB /* Pods_AnciariOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01ADA3DA54E955A98CEC2B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2344BC551279BD086CD5C /* Pods_AnciariOS.framework */,
+				8EFCBC21B151459F6D458CB2 /* Pods_AnciariOSTests.framework */,
+				28DA06EB0EC88380F2C04B21 /* Pods_AnciariOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6688307B19A21373862EFDCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				045BECD457208362E191E06E /* Pods-AnciariOS.debug.xcconfig */,
+				83CD0D1CBE7384CC5BE84BEA /* Pods-AnciariOS.release.xcconfig */,
+				742EC66BDA39A78DFBC9C582 /* Pods-AnciariOSTests.debug.xcconfig */,
+				35043B59F1EC12832D6CBB34 /* Pods-AnciariOSTests.release.xcconfig */,
+				40A8C24E691861952B1B8B52 /* Pods-AnciariOSUITests.debug.xcconfig */,
+				A3E9425A69F9983606C603D4 /* Pods-AnciariOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		DEA303A8281C1FDA00F920BD = {
+			isa = PBXGroup;
+			children = (
+				DEA303B3281C1FDA00F920BD /* AnciariOS */,
+				DEA303CA281C1FDE00F920BD /* AnciariOSTests */,
+				DEA303D4281C1FDE00F920BD /* AnciariOSUITests */,
+				DEA303B2281C1FDA00F920BD /* Products */,
+				6688307B19A21373862EFDCA /* Pods */,
+				01ADA3DA54E955A98CEC2B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA303B2281C1FDA00F920BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303B1281C1FDA00F920BD /* AnciariOS.app */,
+				DEA303C7281C1FDE00F920BD /* AnciariOSTests.xctest */,
+				DEA303D1281C1FDE00F920BD /* AnciariOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA303B3281C1FDA00F920BD /* AnciariOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303E5281C207E00F920BD /* Scenes */,
+				DEA303E6281C208200F920BD /* Infra */,
+				DEA303E7281C208800F920BD /* AppResources */,
+				DEA303E8281C209600F920BD /* SupportingFiles */,
+			);
+			path = AnciariOS;
+			sourceTree = "<group>";
+		};
+		DEA303CA281C1FDE00F920BD /* AnciariOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303CB281C1FDE00F920BD /* AnciariOSTests.swift */,
+			);
+			path = AnciariOSTests;
+			sourceTree = "<group>";
+		};
+		DEA303D4281C1FDE00F920BD /* AnciariOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303D5281C1FDE00F920BD /* AnciariOSUITests.swift */,
+				DEA303D7281C1FDE00F920BD /* AnciariOSUITestsLaunchTests.swift */,
+			);
+			path = AnciariOSUITests;
+			sourceTree = "<group>";
+		};
+		DEA303E5281C207E00F920BD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303E9281C218000F920BD /* Feed */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DEA303E6281C208200F920BD /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				DEA30403281C426400F920BD /* Constants */,
+				DEA30400281C3BE600F920BD /* Extensions */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		DEA303E7281C208800F920BD /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303BD281C1FDD00F920BD /* Assets.xcassets */,
+				DEA303BF281C1FDD00F920BD /* LaunchScreen.storyboard */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		DEA303E8281C209600F920BD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303B4281C1FDA00F920BD /* AppDelegate.swift */,
+				DEA303B6281C1FDA00F920BD /* SceneDelegate.swift */,
+				DEA303C2281C1FDD00F920BD /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DEA303E9281C218000F920BD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303EA281C218300F920BD /* Model */,
+				DEA303EB281C218800F920BD /* ViewModel */,
+				DEA303EC281C218D00F920BD /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		DEA303EA281C218300F920BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303ED281C21AF00F920BD /* Feed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEA303EB281C218800F920BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303EF281C21BF00F920BD /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEA303EC281C218D00F920BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303F3281C21F900F920BD /* Feed.storyboard */,
+				DEA303F1281C21DC00F920BD /* FeedViewController.swift */,
+				DEA303F5281C229700F920BD /* FeedViewController+Table.swift */,
+				DEA303F7281C378500F920BD /* FeedTableCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEA303F7281C378500F920BD /* FeedTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				DEA303F8281C37C700F920BD /* FeedSingleElementCell.swift */,
+				DEA303F9281C37C700F920BD /* FeedSingleElementCell.xib */,
+				DEA303FC281C37D800F920BD /* FeedDoubleElementCell.swift */,
+				DEA303FD281C37D800F920BD /* FeedDoubleElementCell.xib */,
+			);
+			path = FeedTableCells;
+			sourceTree = "<group>";
+		};
+		DEA30400281C3BE600F920BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEA30401281C3BF500F920BD /* UIImageview+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DEA30403281C426400F920BD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DEA30404281C427800F920BD /* ImageRepo.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA303B0281C1FDA00F920BD /* AnciariOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA303DB281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOS" */;
+			buildPhases = (
+				D691D459A0B701E12ED96678 /* [CP] Check Pods Manifest.lock */,
+				DEA303AD281C1FDA00F920BD /* Sources */,
+				DEA303AE281C1FDA00F920BD /* Frameworks */,
+				DEA303AF281C1FDA00F920BD /* Resources */,
+				DEA303E4281C202B00F920BD /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnciariOS;
+			productName = AnciariOS;
+			productReference = DEA303B1281C1FDA00F920BD /* AnciariOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA303C6281C1FDE00F920BD /* AnciariOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA303DE281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOSTests" */;
+			buildPhases = (
+				8FBC29BECBED42FD6A3966B8 /* [CP] Check Pods Manifest.lock */,
+				DEA303C3281C1FDE00F920BD /* Sources */,
+				DEA303C4281C1FDE00F920BD /* Frameworks */,
+				DEA303C5281C1FDE00F920BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA303C9281C1FDE00F920BD /* PBXTargetDependency */,
+			);
+			name = AnciariOSTests;
+			productName = AnciariOSTests;
+			productReference = DEA303C7281C1FDE00F920BD /* AnciariOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA303D0281C1FDE00F920BD /* AnciariOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA303E1281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOSUITests" */;
+			buildPhases = (
+				D237225AAFD039B85213E5E7 /* [CP] Check Pods Manifest.lock */,
+				DEA303CD281C1FDE00F920BD /* Sources */,
+				DEA303CE281C1FDE00F920BD /* Frameworks */,
+				DEA303CF281C1FDE00F920BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA303D3281C1FDE00F920BD /* PBXTargetDependency */,
+			);
+			name = AnciariOSUITests;
+			productName = AnciariOSUITests;
+			productReference = DEA303D1281C1FDE00F920BD /* AnciariOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA303A9281C1FDA00F920BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DEA303B0281C1FDA00F920BD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DEA303C6281C1FDE00F920BD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DEA303B0281C1FDA00F920BD;
+					};
+					DEA303D0281C1FDE00F920BD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DEA303B0281C1FDA00F920BD;
+					};
+				};
+			};
+			buildConfigurationList = DEA303AC281C1FDA00F920BD /* Build configuration list for PBXProject "AnciariOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA303A8281C1FDA00F920BD;
+			productRefGroup = DEA303B2281C1FDA00F920BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA303B0281C1FDA00F920BD /* AnciariOS */,
+				DEA303C6281C1FDE00F920BD /* AnciariOSTests */,
+				DEA303D0281C1FDE00F920BD /* AnciariOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA303AF281C1FDA00F920BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA303C1281C1FDD00F920BD /* LaunchScreen.storyboard in Resources */,
+				DEA303FF281C37D800F920BD /* FeedDoubleElementCell.xib in Resources */,
+				DEA303BE281C1FDD00F920BD /* Assets.xcassets in Resources */,
+				DEA303FB281C37C700F920BD /* FeedSingleElementCell.xib in Resources */,
+				DEA303F4281C21F900F920BD /* Feed.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303C5281C1FDE00F920BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303CF281C1FDE00F920BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FBC29BECBED42FD6A3966B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnciariOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D237225AAFD039B85213E5E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnciariOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D691D459A0B701E12ED96678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnciariOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA303E4281C202B00F920BD /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint --config ${PODS_ROOT}/../.swiftlint.yml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA303AD281C1FDA00F920BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA303F0281C21BF00F920BD /* FeedViewModel.swift in Sources */,
+				DEA303EE281C21AF00F920BD /* Feed.swift in Sources */,
+				DEA30402281C3BF500F920BD /* UIImageview+Extension.swift in Sources */,
+				DEA303B5281C1FDA00F920BD /* AppDelegate.swift in Sources */,
+				DEA303FA281C37C700F920BD /* FeedSingleElementCell.swift in Sources */,
+				DEA303F2281C21DC00F920BD /* FeedViewController.swift in Sources */,
+				DEA303B7281C1FDA00F920BD /* SceneDelegate.swift in Sources */,
+				DEA30405281C427800F920BD /* ImageRepo.swift in Sources */,
+				DEA303F6281C229700F920BD /* FeedViewController+Table.swift in Sources */,
+				DEA303FE281C37D800F920BD /* FeedDoubleElementCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303C3281C1FDE00F920BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA303CC281C1FDE00F920BD /* AnciariOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA303CD281C1FDE00F920BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA303D8281C1FDE00F920BD /* AnciariOSUITestsLaunchTests.swift in Sources */,
+				DEA303D6281C1FDE00F920BD /* AnciariOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA303C9281C1FDE00F920BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA303B0281C1FDA00F920BD /* AnciariOS */;
+			targetProxy = DEA303C8281C1FDE00F920BD /* PBXContainerItemProxy */;
+		};
+		DEA303D3281C1FDE00F920BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA303B0281C1FDA00F920BD /* AnciariOS */;
+			targetProxy = DEA303D2281C1FDE00F920BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA303BF281C1FDD00F920BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA303C0281C1FDD00F920BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA303D9281C1FDE00F920BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA303DA281C1FDE00F920BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA303DC281C1FDE00F920BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045BECD457208362E191E06E /* Pods-AnciariOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnciariOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Feed;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DEA303DD281C1FDE00F920BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CD0D1CBE7384CC5BE84BEA /* Pods-AnciariOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnciariOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Feed;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DEA303DF281C1FDE00F920BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742EC66BDA39A78DFBC9C582 /* Pods-AnciariOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnciariOS.app/AnciariOS";
+			};
+			name = Debug;
+		};
+		DEA303E0281C1FDE00F920BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35043B59F1EC12832D6CBB34 /* Pods-AnciariOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnciariOS.app/AnciariOS";
+			};
+			name = Release;
+		};
+		DEA303E2281C1FDE00F920BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A8C24E691861952B1B8B52 /* Pods-AnciariOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnciariOS;
+			};
+			name = Debug;
+		};
+		DEA303E3281C1FDE00F920BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E9425A69F9983606C603D4 /* Pods-AnciariOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.AnciariOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnciariOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA303AC281C1FDA00F920BD /* Build configuration list for PBXProject "AnciariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA303D9281C1FDE00F920BD /* Debug */,
+				DEA303DA281C1FDE00F920BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA303DB281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA303DC281C1FDE00F920BD /* Debug */,
+				DEA303DD281C1FDE00F920BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA303DE281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA303DF281C1FDE00F920BD /* Debug */,
+				DEA303E0281C1FDE00F920BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA303E1281C1FDE00F920BD /* Build configuration list for PBXNativeTarget "AnciariOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA303E2281C1FDE00F920BD /* Debug */,
+				DEA303E3281C1FDE00F920BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA303A9281C1FDA00F920BD /* Project object */;
+}

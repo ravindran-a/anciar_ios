@@ -1,0 +1,6 @@
+framework module Pods_AnciariOSUITests {
+  umbrella header "Pods-AnciariOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
